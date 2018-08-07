@@ -14,12 +14,12 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
     <StackPanel Grid.Column="1" Grid.Row="1">
-        <Button Content="ONE PLAYER" Margin="10"></Button>
-        <Button Content="TWO PLAYERS" Margin="10"></Button>
+        <Button Content="ONE PLAYER" Margin="10" Click="OnePlayer_Click"></Button>
+        <Button Content="TWO PLAYERS" Margin="10" Click="TwoPlayers_Click"></Button>
         <Button Content="STATISTICS" Margin="10"></Button>
         <Button Content="EXIT" Margin="10"></Button>
     </StackPanel>

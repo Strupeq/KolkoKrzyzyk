@@ -24,5 +24,17 @@ namespace KolkoKrzyzyk
         {
             InitializeComponent();
         }
+
+        private void OnePlayer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TwoPlayers_Click(object sender, RoutedEventArgs e)
+        {
+            Game wnd = new Game();
+            wnd.Show();
+            this.Close();
+        }
     }
 }
